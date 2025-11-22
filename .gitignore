@@ -1,0 +1,13 @@
+# Ignorar caché de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar caché de mapas (OSMnx)
+cache/
+
+# Ignorar archivos de sistema
+.DS_Store
+
+# Ignorar dependencias del frontend (importante)
+medroute-frontend/node_modules/
+medroute-frontend/dist/
